@@ -39,7 +39,7 @@ jobs:
         uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer_clean
         with:
-          command: buildozer -v android clean
+          command: buildozer android clean
           buildozer_version: 1.4.0
     
       - name: Build with Buildozer
