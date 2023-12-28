@@ -24,6 +24,10 @@ jobs:
           sudo apt-get install libstdc++6
           sudo apt-get install aidl
 
+      - name: Install Buildozer
+        run: |
+          pip install buildozer==1.2.0
+
       - name: Cache Buildozer global directory
         uses: actions/cache@v2
         with:
